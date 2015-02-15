@@ -1,0 +1,16 @@
+Start: Mon, 8 Feb 2015 21:42:26 -0800
+End: Tue, 9 Feb 2015 22:42:26 -0800
+Tasks: created table for addition and for showing results. created different
+pages 
+
+Start: Tue, 9 Feb 2015 21:42:26 -0800
+End: Thur, 11 Feb 2015 22:42:26 -0800
+Tasks: worked through various sql queries to figure out how to add resuls
+especippaly when talking about unique ids. also worked through showing select
+rows and not all of them. did a little bit of deletion
+
+Start: Thur, 11 Feb 2015 21:42:26 -0800
+End: Sat, 13 Feb 2015 22:42:26 -0800
+Tasks: cleaned up the results an recieved help from a friend on something that
+could have been inproved like fetch association. also cant' gigure out why
+deleteall can't work
