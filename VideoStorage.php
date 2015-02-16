@@ -7,7 +7,7 @@
 include 'connection.php';
 //select query
 $results = $mysqli->query("SELECT id, name, category, length, rented FROM videos");
-/* Current inventory table*/
+// Current  videos table
     echo '<table border="1">';
     echo '<tr>';
     echo '<th> Id# </th>';
@@ -38,7 +38,7 @@ $results = $mysqli->query("SELECT id, name, category, length, rented FROM videos
          else{
     echo '<input type = "checkbox" name="available">';
         }    
-    /*delete item */
+    //delete item
     echo '<td> <form method="POST"action="videodelete.php"><input type="hidden" name="id" value='.$row["id"].'></input> <input type="submit" value="Delete" ></form></td>';
 }
     echo '</table>';
@@ -52,7 +52,7 @@ $results = $mysqli->query("SELECT id, name, category, length, rented FROM videos
         echo '</select>';
 	echo '<input type="submit" value="Select"></form>';
     
-/*reset the data base*/
+//delete all data
     echo 'Delete all products';
     echo '<form action="deleteall.php"> <input type="submit" value="Delete All"></form>';
 
